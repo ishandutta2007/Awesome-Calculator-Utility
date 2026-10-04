@@ -64,11 +64,11 @@ The calculator software landscape features both enterprise giants and dedicated 
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted by GitHub Star Count (Descending)*
+*Sorted by GitHub Stars_Count (Descending)*
 
 The open-source ecosystem for calculators is exceptionally vibrant, offering production-grade tools ranging from Windows' official calculator to arbitrary-precision symbolic engines and WASM notepad tools.
 
-| 📦 Project & Repository | ⭐ Star Count | 📜 License | 🖥️ Supported Platforms | ⚡ Primary Highlight & Focus |
+| 📦 Project & Repository | ⭐ Stars_Count | 📜 License | 🖥️ Supported Platforms | ⚡ Primary Highlight & Focus |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Windows Calculator](https://github.com/Microsoft/calculator)** | [<img src="https://img.shields.io/github/stars/Microsoft/calculator?style=social&color=white" alt="Windows Calculator Stars"/>](https://github.com/Microsoft/calculator/stargazers) | **MIT** | Windows 11 / C++ | **Official Windows Calculator**: Includes Standard, Scientific, Programmer, Date Calculation, and real-time Unit & Currency conversion. |
 | **[Uno Calculator](https://github.com/unoplatform/calculator)** | [<img src="https://img.shields.io/github/stars/unoplatform/calculator?style=social&color=white" alt="Uno Calculator Stars"/>](https://github.com/unoplatform/calculator/stargazers) | **MIT** | iOS, Android, macOS, Linux, WebAssembly | **Cross-Platform C# Port**: Official C# / Uno Platform port of Microsoft's Windows Calculator bringing the desktop UI to mobile and web. |
@@ -97,7 +97,7 @@ Contributions are highly appreciated! To submit a new calculator utility or upda
 ## ⚠️ Disclaimer
 
 - This repository is a community-curated collection intended for educational and informational reference.
-- Product prices, enterprise valuations, and GitHub star counts reflect publicly available estimates and are subject to change.
+- Product prices, enterprise valuations, and GitHub Stars_Counts reflect publicly available estimates and are subject to change.
 - Always review privacy practices when using cloud-based calculator services for sensitive financial or proprietary calculations.
 
 ---
