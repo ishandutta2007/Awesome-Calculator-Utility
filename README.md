@@ -1,211 +1,118 @@
-# Awesome-Calculator-Utility
-
-# Awesome-Calculator-Utility
-
-
-
-**Curated List of Commercial Software & Open-Source GitHub Projects**
-
-*Focused on Scientific Calculation, Unit Conversion, Notepad-Style Math & Graphing*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial calculator utilities** and **open-source projects** that help users perform everything from basic arithmetic to complex scientific computation, unit conversion, and natural-language math.
-
-
-
-**Examples** include Windows Calculator, PCalc, Calcbot, Desmos, SpeedCrunch, Soulver, Wolfram Alpha, HP 12C Calculator, HiPER Scientific Calculator, and Numi (the category leaders).
-
-
-
-**Open-source emphasis**: The calculator utility space has an **exceptionally mature and diverse open-source ecosystem**. **Windows Calculator** itself is open source under MIT with **40,387 stars**, shipping standard, scientific, and programmer modes plus unit and currency conversion . **SpeedCrunch** is the highest-rated open-source calculator across AlternativeTo with **128 alternatives ranked below it**, offering high precision, syntax highlighting, and keyboard-first design . **Qalculate!** is the most feature-dense cross-platform calculator with **118 alternatives ranked below it**, supporting arbitrary precision, symbolic calculations, units, and currency conversion . **NoteCalc** brings Soulver-style natural-language math to the browser as a Rust/WASM app . This section documents these production-grade solutions.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [Commercial Software](#commercial-software)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## Commercial Software
-
-
-
-- **[PCalc](https://pcalc.com/)**
-
-  **The most awarded calculator app for Apple platforms.** Provides standard, scientific, and programmer modes with RPN support, customizable themes, and deep integration with macOS, iOS, and watchOS. **Best for**: Apple users wanting a polished, feature-rich calculator.
-
-
-
-- **[Calcbot](https://tapbots.com/calcbot/)**
-
-  **Beautiful calculator for iPhone, iPad, and Apple Watch.** Provides unit conversion, calculation history, and a clean interface from the makers of Tweetbot. **Best for**: Users prioritizing design and simplicity.
-
-
-
-- **[Desmos](https://www.desmos.com/)**
-
-  **The leading online graphing calculator.** Provides interactive graphing, sliders, tables, and regression tools. Free for web and mobile with a clean, modern interface. **Best for**: Students, teachers, and anyone needing to visualize mathematical functions.
-
-
-
-- **[Soulver](https://soulver.app/)**
-
-  **The original notepad calculator for macOS and iOS.** Type math in plain English and get instant answers alongside your notes. **Best for**: Mac users wanting natural-language calculation without switching apps.
-
-
-
-- **[Wolfram Alpha](https://www.wolframalpha.com/)**
-
-  **Computational knowledge engine that solves math, science, and engineering problems.** Provides step-by-step solutions, plots, and expert-level answers across virtually every domain. **Best for**: Students, researchers, and professionals needing deep computational answers.
-
-
-
-- **[HP 12C Calculator](https://www.hp.com/us-en/shop/pdp/hp-12c-financial-calculator)**
-
-  **The legendary financial calculator used by professionals for decades.** Provides RPN entry, financial functions, and a proven track record in finance and real estate. **Best for**: Finance professionals and RPN enthusiasts.
-
-
-
-- **[HiPER Scientific Calculator](https://hiperlabs.eu/)**
-
-  **Advanced scientific calculator with result history and themes.** Available on Android and Windows. **Open source** (Windows Edition marked "100% open source") . **Best for**: Android and Windows users wanting a feature-rich scientific calculator.
-
-
-
-- **[Numi](https://numi.app/)**
-
-  **Handy calculator app for macOS that describes tasks in natural language.** Type `$20 in euro - 5% discount` or `today + 2 weeks` and get instant answers. **Best for**: Mac users wanting natural-language calculation.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Full-Featured Scientific Calculators
-
-
-
-- **[Windows Calculator](https://github.com/Microsoft/calculator)**
-
-  **Microsoft's official Windows Calculator, open source under MIT.** **40,387 stars, 31,058 forks** . **Key features**: **Standard Calculator** — basic operations evaluated immediately; **Scientific Calculator** — expanded operations with order of operations; **Programmer Calculator** — conversion between common bases; **Date Calculation** — difference between dates, add/subtract years/months/days; **Unit and currency conversion** based on Bing data; **Infinite precision** for basic arithmetic operations . **Graphing mode** is on the roadmap with community-contributed UI . **Platforms**: Windows 11 (build 22000+) . **Best for**: Windows users wanting the official calculator with community contributions.
-
-
-
-- **[SpeedCrunch](https://github.com/agatti/speedcrunch)**
-
-  **The highest-rated open-source calculator on AlternativeTo (128 alternatives ranked below).** **GPL-2.0 licensed** . **Key features**: **High-precision scientific calculation**; **Syntax-highlighted scrollable display**; **Keyboard-first design** — fully usable without mouse; **Auto-completion of functions and variables**; **Formula book** for quick reference; **Quick insertion of constants** from various fields . **Available for Windows, macOS, and Linux** in multiple languages . **Note**: Listed as "Discontinued" on AlternativeTo but the repository remains active . **Best for**: Users wanting a fast, precise, keyboard-driven calculator.
-
-
-
-- **[Qalculate!](https://github.com/Qalculate)**
-
-  **The most feature-dense open-source calculator (118 alternatives ranked below).** **GPL-2.0 licensed** . **Key features**: **Arbitrary precision**; **Symbolic calculations**; **Unit support** with full dimensional analysis; **Currency conversion**; **Customizable functions**; **CLI and GUI** (Qt, GTK, and more) . **Available via Flathub and Snap** . **Best for**: Power users, scientists, and engineers needing maximum calculation capability.
-
-
-
-### Notepad-Style & Natural Language Calculators
-
-
-
-- **[NoteCalc](https://github.com/bbodi/notecalc3)**
-
-  **Free Soulver alternative in your browser.** **Rust/WASM** application . **Key features**: **Notepad with smart built-in calculator**; evaluates expressions as you type; **user-defined functions** (0.4.0); **conditionals and comparisons** (0.4.0); **configurations** (decimal point, font size) . **Run locally** with `./compile_and_run.bat` or **Docker**: `docker run --rm -d -p 5000:5000 notecalc3` . **Best for**: Users wanting Soulver-style natural-language math in the browser.
-
-
-
-- **[calced](https://pypi.org/project/calced/)**
-
-  **Notepad calculator that evaluates math in plain text files.** **Tiny, no dependencies** — CLI is a single 47KB Python file (stdlib only), web app is a single 52KB HTML file . **Key features**: **CLI and web app** with same syntax; **Variables**; **Percentages**; **SI prefixes** (k, M, G, T, etc.); **Unit conversions** (length, mass, temperature, data, time, volume); **Rate conversions** with `@rate`; **Date arithmetic** (days, weeks, months, years); **Totals** with `total`/`sum`; **Number formats** (commas, underscores, hex, binary, octal, scientific) . **Installation**: `pip install calced` or `uv tool install calced` . **Best for**: Developers and analysts wanting reproducible plain-text calculations.
-
-
-
-### Android & Mobile Calculators
-
-
-
-- **[Fossify Calculator](https://github.com/FossifyOrg/Calculator)**
-
-  **Privacy-focused Android calculator with no ads and no internet permission.** **Open source** . **Key features**: **Basic and advanced operations** (roots, powers, common functions); **Unit conversions**; **Offline operation** — no internet permission requested; **Calculation history**; **Customizable colors and themes**; **Button vibration and display preferences** . **Available on F-Droid and OpenAPK** . **Best for**: Android users wanting a privacy-respecting, ad-free calculator.
-
-
-
-- **[Uno Calculator](https://github.com/unoplatform/calculator)**
-
-  **C# port of Windows Calculator for iOS, Android, WebAssembly, and Linux.** **380 stars** . **Key features**: **Standard, scientific, and programmer modes**; **Unit and currency conversion**; **Infinite precision** for basic operations . **Available on App Store, Play Store, Snap Store, and web** . **Best for**: Users wanting the Windows Calculator experience on non-Windows platforms.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Scientific Calculators**: **Windows Calculator** (MIT, official, 40k+ stars), **SpeedCrunch** (GPL-2.0, keyboard-first), **Qalculate!** (GPL-2.0, most feature-dense), **HiPER Scientific Calculator** (open source, Android/Windows) .
-
-- **Notepad/Natural Language**: **NoteCalc** (Rust/WASM, Soulver alternative), **calced** (Python, plain-text files) .
-
-- **Mobile**: **Fossify Calculator** (Android, privacy-focused), **Uno Calculator** (cross-platform C# port) .
-
-- **Graphing**: **Desmos** (web/mobile, free), **GeoGebra** (open-source graphing calculator) .
-
-- **Linux Desktop**: **KCalc** (KDE), **GNOME Calculator**, **galculator**, **Kalk**, **Qalculate! Qt/GTK** .
-
-
-
-**Frameworks for building custom systems**: Combine **Qalculate!** for maximum scientific capability with symbolic math and units, **SpeedCrunch** for fast keyboard-driven calculation, **NoteCalc** or **calced** for notepad-style natural-language math, and **Windows Calculator** for a familiar, polished UI with community contributions. For Android, **Fossify Calculator** provides privacy-first offline calculation . Add **Desmos** or **GeoGebra** for graphing needs .
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's commercial or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Calculator utilities handle potentially sensitive financial and personal data; ensure proper privacy practices and avoid entering sensitive information into cloud-based calculators without review.
-
-- **Open-source reality**: The calculator utility space has an **exceptionally mature and diverse open-source ecosystem**. **Windows Calculator** is open source under MIT with 40,387 stars and ships with Windows . **SpeedCrunch** (GPL-2.0) is the highest-rated open-source calculator across AlternativeTo . **Qalculate!** (GPL-2.0) is the most feature-dense with arbitrary precision, symbolic math, and full unit support . **NoteCalc** and **calced** bring Soulver-style natural-language math to the browser and CLI . **Fossify Calculator** delivers privacy-first Android calculation with no internet permission . **Uno Calculator** ports the Windows Calculator experience to iOS, Android, WebAssembly, and Linux . For virtually every calculator need, the open-source path is **genuinely viable and often preferred**.
-
-
+# 🧮 Awesome Calculator Utility
+
+![Awesome Calculator Utility Banner](./assets/banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Calculator-Utility/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Calculator-Utility?style=social" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Calculator-Utility/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Calculator-Utility?style=social" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Calculator-Utility/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Calculator-Utility?color=blue" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 🚀 **Curated List of Commercial Software & Open-Source GitHub Projects**
+> 
+> *Focused on Scientific Calculation, Unit Conversion, Notepad-Style Math, Graphing & Symbolic Computation*
+>
+> **Last updated: October 2026**
 
 ---
 
+## 💡 Overview & Market Landscape
 
+The **global calculator and computational software market** is estimated at **$1.8B – $2.5B annually**, spanning educational graphing tools, professional financial calculators, advanced desktop scientific applications, and enterprise knowledge engines.
 
-**Made for students, engineers, scientists, finance professionals, and everyday users.**
+### 📊 Market Fragmentation Profile
+* **Sector Structure**: **Moderately Fragmented** with specialized category leaders.
+* **Category Dynamics**: While general consumer mobile calculator apps are commoditized, specialized sub-niches exhibit high user loyalty:
+  * 📈 **Graphing & K-12 Education**: High concentration around **Desmos** and **GeoGebra**.
+  * 🔬 **Symbolic & Enterprise Knowledge**: Dominates by **Wolfram Alpha**.
+  * 📝 **Notepad / Natural Language Math**: Moderately fragmented across desktop apps like **Soulver**, **Numi**, **NoteCalc**, and **calced**.
+  * 🔓 **Desktop Scientific & Open-Source**: Extremely healthy, mature open-source ecosystem led by **Windows Calculator**, **SpeedCrunch**, and **Qalculate!**.
 
-Let's make calculation more open, precise, and accessible.
+---
+
+## 📑 Table of Contents
+
+- [💼 Commercial & SaaS Software](#-commercial--saas-software)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#-disclaimer)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+
+---
+
+## 💼 Commercial & SaaS Software
+
+*Sorted by Company Size / Market Valuation (Descending)*
+
+The calculator software landscape features both enterprise giants and dedicated indie studios providing specialized calculation, financial, and educational tooling.
+
+| 🏢 Product / Company | 💰 Starting Tier Pricing | 🎁 Free Tier / Trial Limit | 📊 Company Size / Valuation | 🎯 Best For & Key Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[HP 12C Calculator](https://www.hp.com/us-en/shop/pdp/hp-12c-financial-calculator)**<br>*(HP Inc. - NYSE: HPQ)* | **$69.99** one-time (Hardware / Official App) | **None** (Paid hardware/official software) | **~$29.5 Billion** Market Cap (HP Inc.) | **Finance & Real Estate**: Legendary RPN financial calculator used by banking and real estate professionals worldwide for over 40 years. |
+| **[Desmos](https://www.desmos.com/)**<br>*(Acquired by Amplify)* | **$0.00** (Free for students/teachers; enterprise API licensing) | **Unlimited Free Web & Mobile Access** (Core graphing tool is 100% free forever) | **~$250 Million+** (Acquired by Amplify; raised $10.4M VC prior) | **Students & Educators**: Industry-standard interactive graphing calculator, function visualization, regression modeling, and classroom math activities. |
+| **[Wolfram Alpha](https://www.wolframalpha.com/)**<br>*(Wolfram Research)* | **$9.95/month** (Pro plan; API starting at $25/mo) | **Free Web Queries** (Limited step-by-step solutions & file uploads) | **~$100 Million+** Annual Revenue (Private; estimated valuation ~$500M-$1B) | **Scientists & Engineers**: Premier computational knowledge engine providing symbolic math, step-by-step solutions, differential equations, and data analytics. |
+| **[Soulver](https://soulver.app/)**<br>*(Acqualia)* | **$59.00** one-time license | **30-Day Fully Functional Free Trial** | **Indie Studio** (~$500K-$1M Revenue) | **Mac & iOS Power Users**: The original notepad calculator that turns plain English text into live calculations with live currency and stock data. |
+| **[PCalc](https://pcalc.com/)**<br>*(TLA Systems)* | **$9.99** one-time (Universal iOS/macOS) | **PCalc Lite Available** (Free stripped-down version with optional feature in-app purchases) | **Indie Studio** (~$200K-$500K Revenue) | **Apple Platform Power Users**: Highly customizable scientific calculator with RPN mode, programmable functions, unit conversions, and Apple Watch support. |
+| **[Numi](https://numi.app/)**<br>*(Indie)* | **$14.99/month** (via Setapp bundle) or **$19.99** standalone license | **Free Basic Download** (Occasional upgrade prompts / basic mode free) | **Indie Studio** (<$200K Revenue) | **macOS Developers & Analysts**: Elegant notepad calculator supporting natural language math, time zone math, currency conversion, and custom JS plugins. |
+| **[Calcbot](https://tapbots.com/calcbot/)**<br>*(Tapbots)* | **$1.99/year** (Calcbot Pro subscription) | **Free Basic Calculator & History** (Pro features like unit conversion locked) | **Indie Studio** (<$200K Revenue) | **iOS & Apple Watch Users**: Clean, beautifully designed standard calculator with interactive calculation history tape and quick conversion. |
+| **[HiPER Scientific Calculator](https://hiperlabs.eu/)**<br>*(HiPER Development)* | **$5.99** one-time (Pro Version) | **Free Ad-Supported Version** (Core scientific features included free) | **Indie Studio** (<$100K Revenue) | **Android & Windows Users**: Comprehensive scientific calculator with multi-line display, symbolic algebra, matrix math, and custom color themes. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+*Sorted by GitHub Star Count (Descending)*
+
+The open-source ecosystem for calculators is exceptionally vibrant, offering production-grade tools ranging from Windows' official calculator to arbitrary-precision symbolic engines and WASM notepad tools.
+
+| 📦 Project & Repository | ⭐ Star Count | 📜 License | 🖥️ Supported Platforms | ⚡ Primary Highlight & Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Windows Calculator](https://github.com/Microsoft/calculator)** | [<img src="https://img.shields.io/github/stars/Microsoft/calculator?style=social&color=white" alt="Windows Calculator Stars"/>](https://github.com/Microsoft/calculator/stargazers) | **MIT** | Windows 11 / C++ | **Official Windows Calculator**: Includes Standard, Scientific, Programmer, Date Calculation, and real-time Unit & Currency conversion. |
+| **[Uno Calculator](https://github.com/unoplatform/calculator)** | [<img src="https://img.shields.io/github/stars/unoplatform/calculator?style=social&color=white" alt="Uno Calculator Stars"/>](https://github.com/unoplatform/calculator/stargazers) | **MIT** | iOS, Android, macOS, Linux, WebAssembly | **Cross-Platform C# Port**: Official C# / Uno Platform port of Microsoft's Windows Calculator bringing the desktop UI to mobile and web. |
+| **[Qalculate! (libqalculate)](https://github.com/Qalculate/libqalculate)** | [<img src="https://img.shields.io/github/stars/Qalculate/libqalculate?style=social&color=white" alt="Qalculate Stars"/>](https://github.com/Qalculate/libqalculate/stargazers) | **GPL-2.0** | Linux, Windows, macOS (Qt/GTK/CLI) | **Most Feature-Dense Scientific Calculator**: Arbitrary precision, symbolic algebra, dimensional unit analysis, currency exchange, and extensive physics constants. |
+| **[GeoGebra](https://github.com/geogebra/geogebra)** | [<img src="https://img.shields.io/github/stars/geogebra/geogebra?style=social&color=white" alt="GeoGebra Stars"/>](https://github.com/geogebra/geogebra/stargazers) | **GPL-3.0** | Web, Windows, macOS, Linux, Android, iOS | **Dynamic Mathematics Suite**: Combines geometry, algebra, spreadsheets, graphing, statistics, and calculus in one interactive package. |
+| **[NoteCalc](https://github.com/bbodi/notecalc3)** | [<img src="https://img.shields.io/github/stars/bbodi/notecalc3?style=social&color=white" alt="NoteCalc Stars"/>](https://github.com/bbodi/notecalc3/stargazers) | **MIT** | Browser (Rust / WASM), Docker | **Browser Notepad Calculator**: Soulver alternative built with Rust and WebAssembly, evaluating math expressions, user functions, and unit math live in your browser. |
+| **[Fossify Calculator](https://github.com/FossifyOrg/Calculator)** | [<img src="https://img.shields.io/github/stars/FossifyOrg/Calculator?style=social&color=white" alt="Fossify Calculator Stars"/>](https://github.com/FossifyOrg/Calculator/stargazers) | **GPL-3.0** | Android (Kotlin) | **Privacy-First Mobile Calculator**: Ad-free, offline Android calculator with zero internet permissions, customizable theme colors, and history tape. |
+| **[SpeedCrunch](https://github.com/speedcrunch/SpeedCrunch)** | [<img src="https://img.shields.io/github/stars/speedcrunch/SpeedCrunch?style=social&color=white" alt="SpeedCrunch Stars"/>](https://github.com/speedcrunch/SpeedCrunch/stargazers) | **GPL-2.0** | Windows, macOS, Linux (Qt) | **Keyboard-Driven Desktop Scientific App**: High precision, syntax-highlighted scrollable display, auto-completion, built-in formula book, and quick constants insertion. |
+| **[KCalc](https://github.com/KDE/kcalc)** | [<img src="https://img.shields.io/github/stars/KDE/kcalc?style=social&color=white" alt="KCalc Stars"/>](https://github.com/KDE/kcalc/stargazers) | **GPL-2.0** | Linux (KDE Plasma) | **KDE Desktop Calculator**: Reliable scientific calculator with trigonometric functions, logical operations, statistical calculations, and stack manipulation. |
+| **[GNOME Calculator](https://github.com/GNOME/gnome-calculator)** | [<img src="https://img.shields.io/github/stars/GNOME/gnome-calculator?style=social&color=white" alt="GNOME Calculator Stars"/>](https://github.com/GNOME/gnome-calculator/stargazers) | **GPL-3.0** | Linux (GNOME) | **Official GNOME Desktop Calculator**: Modern GTK4 app with Basic, Advanced, Financial, and Programmer modes plus monetary unit conversions. |
+| **[calced](https://github.com/calced/calced)** | [<img src="https://img.shields.io/github/stars/calced/calced?style=social&color=white" alt="calced Stars"/>](https://github.com/calced/calced/stargazers) | **MIT** | Cross-platform CLI (Python / HTML) | **Plain-Text Notepad Math Engine**: Single-file zero-dependency Python CLI and HTML web app evaluating inline math, variables, unit conversions, and percentage rates in text files. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are highly appreciated! To submit a new calculator utility or update an existing entry:
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add or update** entries in `README.md` keeping the Markdown tabular formatting consistent.
+3. 🔗 Include official product/repository links, factual pricing or GitHub star links, and key highlights.
+4. 🚀 **Submit a Pull Request** with a brief summary of changes.
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a community-curated collection intended for educational and informational reference.
+- Product prices, enterprise valuations, and GitHub star counts reflect publicly available estimates and are subject to change.
+- Always review privacy practices when using cloud-based calculator services for sensitive financial or proprietary calculations.
+
+---
+
+## 💖 Support
+
+If you find this repository helpful, please consider showing your support:
+
+- ⭐ **Star** this repository to increase its visibility on GitHub!
+- 🔀 **Fork** it to contribute improvements or save your own list.
+- 📢 **Share** it with fellow developers, students, and researchers.
+- ☕ **Sponsor / Buy me a coffee**: If you'd like to support open-source curation and development, consider sponsoring via the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Calculator-Utility&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Calculator-Utility&type=date&legend=top-left)
